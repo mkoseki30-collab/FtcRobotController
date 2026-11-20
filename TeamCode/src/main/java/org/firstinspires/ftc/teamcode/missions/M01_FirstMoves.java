@@ -33,7 +33,7 @@ public class M01_FirstMoves extends LinearOpMode {
         leftDrive.setPower(0.5);
         rightDrive.setPower(0.5);
         // ...and keep going for 1000 milliseconds (1 second).
-        sleep(1000);
+        sleep(3500);
 
         // Stop.
         leftDrive.setPower(0);

@@ -29,17 +29,17 @@ public class M02_TurnAndPark extends LinearOpMode {
         // Step 1: drive forward
         leftDrive.setPower(0.5);
         rightDrive.setPower(0.5);
-        sleep(1500);
+        sleep(2700);
 
         // Step 2: turn right
-        leftDrive.setPower(0.5);
-        rightDrive.setPower(-0.5);
-        sleep(500);
+        leftDrive.setPower(-0.5);
+        rightDrive.setPower(0.5);
+        sleep(600);
 
         // Step 3: drive forward again
         leftDrive.setPower(0.5);
         rightDrive.setPower(0.5);
-        sleep(1500);
+        sleep(3150);
 
         // Step 4: stop
         leftDrive.setPower(0);

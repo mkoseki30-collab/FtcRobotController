@@ -3,6 +3,9 @@ package org.firstinspires.ftc.teamcode.lessons;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.hardware.DcMotor;
+
+import org.firstinspires.ftc.robotcore.external.Telemetry;
 
 /*
  * LESSON 18 - The Grand Challenge.
@@ -30,13 +33,10 @@ public class L18_GrandChallenge extends LinearOpMode {
 
         telemetry.addData("Status", "Ready for the Grand Challenge");
         telemetry.update();
-        waitForStart();
+        waitForStart(); 
 
-        // Write your plan here FIRST, as comments: one line per step, in plain English.
-        // Then turn each comment into a call to one of your robot's skills.
-        // 1.
-        // 2.
-        // 3.
+
+
 
     }
 }
